@@ -53,7 +53,7 @@ then
 	mkdir -p $TMPDIR
 fi
 
-printf "Select dir to install greasyspoon in[default:$GREASYDIR]:"
+printf "Select dir to install greasyspoon in[default:/opt/greasyspoon]:"
 read GREASYDIR
 
 if [ "$GREASYDIR" == "" ]
